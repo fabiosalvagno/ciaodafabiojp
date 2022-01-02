@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+
+body {
+    background-color: bisque;
+}
+
+.center {
+    text-align: center;
+}
+
+.navbar {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 90%;
+    margin: 1rem auto;
+}
