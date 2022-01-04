@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wf-sawarabimincho {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    margin: 1rem auto;
+    font-size: 2rem;
+    width: 80%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.navbar .menu ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbar .menu ul li {
+    display: block;
+    padding: 0.5rem;
+
+    color:aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 1rem;
+    margin: auto;
+    width: 90%;
+}
