@@ -27,7 +27,7 @@
 </section>
 <section class="main">
     <div class="container">
-        <p>prova</p>
+        <p>サイトを作成中</p>
     </div>
 </section>
 </body>
