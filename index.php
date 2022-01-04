@@ -14,7 +14,7 @@
 <section class="nav">
     <div class="navbar">
         <div class="title">
-            Ciao da Fabio 4
+            Ciao da Fabio
         </div>
         <div class="menu wf-sawarabimincho">
             <ul>
