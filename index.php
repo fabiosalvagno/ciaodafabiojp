@@ -27,7 +27,7 @@
 </section>
 <section class="main">
     <div class="container">
-        <p class="center">サイトを作成中2<?php</p>
+        <p class="center">サイトを作成中2</p>
     </div>
 </section>
 </body>
