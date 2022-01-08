@@ -1,17 +1,31 @@
+# on: push
+# name: 🚀 Deploy website on push
+# jobs:
+#   web-deploy:
+#     name: 🎉 Deploy
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: 🚚 Get latest code
+#       uses: actions/checkout@v2
+    
+#     - name: 📂 Sync files
+#       uses: SamKirkland/FTP-Deploy-Action@4.2.0
+#       with:
+#         server: ftp.ciaodafabio.jp
+#         username: fabiojp@ciaodafabio.jp
+#         password: gandalf715
+#         server-dir: /public_html/
+
 on: push
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
-    name: 🎉 Deploy
-    runs-on: ubuntu-latest
-    steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
-    
+    name: Deploy
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
         server: ftp.ciaodafabio.jp
+        port: 21
         username: fabiojp@ciaodafabio.jp
         password: gandalf715
         server-dir: /public_html/
