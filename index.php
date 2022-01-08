@@ -27,7 +27,7 @@
 </section>
 <section class="main">
     <div class="container">
-        <p class="center">サイトを作成中4</p>
+        <p class="center">サイトを作成中5</p>
     </div>
 </section>
 </body>
