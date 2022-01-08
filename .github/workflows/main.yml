@@ -1,17 +1,16 @@
-name: CI
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:
+on: push
+name: Publish Website
 jobs:
-  build:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
     runs-on: ubuntu-latest
-- name: ftp-action
-  uses: sebastianpopp/ftp-action@v2.0.0
-  with:
-    host: ftp.ciaodafabio.jp
-    user: fabiojp@ciaodafabio.jp
-    password: gandalf715
-    remoteDir: /public_html/
+    steps:
+    - uses: actions/checkout@v2.1.0
+      with:
+        fetch-depth: 2
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: ftp://ftp.ciaodafabio.jp:21/public_html
+        ftp-username: fabiojp@ciaodafabio.jp
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
