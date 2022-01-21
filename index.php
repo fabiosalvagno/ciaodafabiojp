@@ -41,17 +41,7 @@
         <div class="container">
             <p class="center">サイトを作成中28</p>
         </div>
-<<<<<<< HEAD
     </section>
-=======
-    </div>
-</section>
-<section class="main">
-    <div class="container">
-        <p class="center">サイトを作成中</p>
-    </div>
-</section>
->>>>>>> dev
 </body>
 
 </html>
